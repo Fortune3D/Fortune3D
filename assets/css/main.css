@@ -2694,7 +2694,7 @@ input, select, textarea {
 					-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
 					-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
 					transition: max-height 0.5s ease, opacity 0.5s ease;
-					width: 400;
+					width: 350;
 					max-height: 0.1;
 					line-height: 1.5;
 					margin-top: auto;
