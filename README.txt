@@ -11,6 +11,9 @@ sort of look. Hope you dig it :)
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
 
+This site is customized by Marefat Abbas
+For more information, please contact @mhsily of Social media handles or email me at mhsily@gmail.com
+
 (* = not included)
 
 AJ

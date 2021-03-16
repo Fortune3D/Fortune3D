@@ -4,6 +4,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*
+This site is customized by Marefat Abbas
+For more information, please contact @mhsily of Social media handles or email me at mhsily@gmail.com
+*/
+
 (function($) {
 
 	var	$window = $(window),

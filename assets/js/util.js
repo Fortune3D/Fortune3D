@@ -4,6 +4,11 @@
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
 	 */
+
+	 /*
+This site is customized by Marefat Abbas
+For more information, please contact @mhsily of Social media handles or email me at mhsily@gmail.com
+*/
 	$.fn.navList = function() {
 
 		var	$this = $(this);
@@ -33,7 +38,10 @@
 		return b.join('');
 
 	};
-
+/*
+This site is customized by Marefat Abbas
+For more information, please contact @mhsily of Social media handles or email me at mhsily@gmail.com
+*/
 	/**
 	 * Panel-ify an element.
 	 * @param {object} userConfig User config.
