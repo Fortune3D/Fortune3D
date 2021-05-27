@@ -4090,6 +4090,10 @@ input, select, textarea {
 					margin: 0em 0 2em 0;
 				}
 
+					#footer .inner .copyright li{
+						padding-top: 1em;
+					}
+
 	}
 
 	@media screen and (max-width: 736px) {
@@ -4120,6 +4124,10 @@ input, select, textarea {
 					float: none;
 				}
 
+					#footer .inner .copyright li{
+						padding-top: 1em;
+					}
+
 	}
 
 	@media screen and (max-width: 480px) {
@@ -4129,6 +4137,7 @@ input, select, textarea {
 			display: block;
 			margin: 0em 0 0 0;
 			padding-left: 0;
+			padding-top: 1em;
 		}
 
 			#footer .inner .copyright li:first-child {
@@ -4152,5 +4161,9 @@ input, select, textarea {
 				display: block;
 				float: none;
 			}
+			
+					#footer .inner .copyright li{
+						padding-top: 1em;
+					}
 
 	}
