@@ -3538,7 +3538,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		#wrapper > header {
-			padding: 11em 3em 7.375em 3em ;
+			padding: 11	em 3em 7.375em 3em ;
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3985,11 +3985,36 @@ input, select, textarea {
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .copyright {
+		#footer .inner .footermenu {
+			padding: 1em 0 1em 0;
+			margin: 4em 0 0em 0;
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		}
+
+			#footer .inner .footermenu ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				
+			}	
+
+			#footer .inner .footermenu li{
+
+				float: left;
+				margin-left: 1em;
+				margin-right: 1em;
+				padding: 0;
+				padding-left: 1em;
+				padding-right: 1em;
+
+			}
+
+		#footer .inner .copyright {
 			list-style: none;
-			margin: 4em 0 2em 0;
-			padding: 2em 0 0 0;
+			margin: 0em 0 2em 0;
+			padding: 0em 0 0 0;
 			width: 100%;
 		}
 
@@ -4052,8 +4077,17 @@ input, select, textarea {
 					margin: 0 0 4em 0;
 				}
 
+				#footer .inner .footermenu {
+					margin: 0 0 3em 0;
+				}
+
+				#footer .inner .footermenu li{
+					display: block;
+					float: none;
+				}
+
 				#footer .inner .copyright {
-					margin: 4em 0 2em 0;
+					margin: 0em 0 2em 0;
 				}
 
 	}
@@ -4077,6 +4111,15 @@ input, select, textarea {
 					margin: 0 0 3em 0;
 				}
 
+				#footer .inner .footermenu {
+					margin: 0 0 3em 0;
+				}
+
+				#footer .inner .footermenu li{
+					display: block;
+					float: none;
+				}
+
 	}
 
 	@media screen and (max-width: 480px) {
@@ -4084,12 +4127,17 @@ input, select, textarea {
 		#footer .inner .copyright li {
 			border-left: 0;
 			display: block;
-			margin: 1em 0 0 0;
+			margin: 0em 0 0 0;
 			padding-left: 0;
 		}
 
 			#footer .inner .copyright li:first-child {
 				margin-top: 0;
+			}
+
+			#footer .inner .footermenu li{
+				display: block;
+				float: none;
 			}
 
 	}
@@ -4099,5 +4147,10 @@ input, select, textarea {
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
+
+			#footer .inner .footermenu li{
+				display: block;
+				float: none;
+			}
 
 	}
